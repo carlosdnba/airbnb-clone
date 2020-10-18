@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container nav {
+  width: 100%;
+  height: 100vh;
+
+  background: url("../../images/hero-background.png") no-repeat center;
+  background-size: cover;
+}
+
+.container nav header {
+  padding: 16px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container nav header .header-options {
+  display: flex;
+  flex-direction: row;
+}
+
+.container nav header .header-options span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 8px;
+}
+
+.container nav section {
+  margin: 20px 80px;
+  padding: 20px;
+
+  width: 380px;
+  height: 500px;
+  border-radius: 8px;
+
+  background: #fff;
+  color: #484848;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container nav section h2 {
+  margin-top: 8px;
+
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container nav section form {
+  margin-top: 16px;
+}
+
+.container nav section form h5 {
+  margin-top: 12px;
+}
+
+.container nav section form input {
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  padding: 4px;
+}
+
+.container nav section form input::-webkit-input-placeholder {
+  color: #8f8f8f;
+  font-weight: normal;
+  font-size: 16px;
+}
+.container nav section form .big-form-input {
+  margin-top: 4px;
+
+  width: 100%;
+  height: 32px;
+}
+
+.container nav section form .form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container nav section form .form-row h5 {
+  margin-top: 12px;
+}
+
+.container nav section form .form-row input {
+  display: flex;
+  flex-direction: row;
+
+  width: 170px;
+}
+
+.container nav section button {
+  margin-top: 32px;
+  align-self: flex-end;
+
+  width: 146px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+
+  background: #ff5a5f;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.container section {
+  padding: 0 80px;
+}
+
+.container section h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #484848;
+}
+
+.container section .explorer {
+  margin-top: 80px;
+}
+
+.container section .explorer .explorer-cards-row {
+  margin-top: 32px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container section .accommodations {
+  margin-top: 64px;
+}
+
+.container section .accommodations span {
+  margin: 20px 0;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #484848;
+}
+
+.container section .accommodations img {
+  margin-top: 20px;
+}
+
+.container footer {
+  width: 100%;
+  height: 80px;
+}
