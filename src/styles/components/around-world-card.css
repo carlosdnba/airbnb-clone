@@ -1,0 +1,62 @@
+.around-world-card-container {
+  margin-top: 28px;
+
+  width: 290px;
+  height: 265px;
+}
+
+.around-world-card-container .around-world-card-row {
+  margin: 12px 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.around-world-card-container .around-world-card-row button {
+  width: 74px;
+  height: 28px;
+  border-radius: 2px;
+
+  border: 1px solid #484848;
+  box-sizing: border-box;
+  background: #fff;
+
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  color: #484848;
+}
+
+.around-world-card-container .around-world-card-row span {
+  margin: 0 8px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #767676;
+}
+
+.around-world-card-container .around-world-card-row .rate-row {
+  display: flex;
+  flex-direction: row;
+
+  justify-self: flex-end;
+}
+
+.around-world-card-container .around-world-card-row .rate-row h6 {
+  margin-left: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #484848;
+}
+
+.around-world-card-container span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #484848;
+}
