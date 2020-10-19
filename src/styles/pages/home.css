@@ -261,7 +261,7 @@
 }
 
 .container section .destinations .destinations-cards-row {
-  margin-top: 64px;
+  margin-top: 32px;
   
   display: flex;
   flex-flow: row wrap;
