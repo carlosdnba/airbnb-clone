@@ -1,16 +1,20 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 
+// components
 import ExplorerCard from "../components/ExplorerCard";
-import AdventuresCard from "../components/AdventuresCard";
+import MiniCard from "../components/MiniCard";
+import AroundWorldCard from "../components/AroundWorldCard";
 
+// css
 import "../styles/pages/home.css";
 
+// images
 import airbnbLogo34 from "../images/airbnb-logo-34.png";
 import airbnbLogo124 from "../images/airbnb-logo-124.png";
-import explorerCardImg1 from "../images/explorer-card-1.png";
-import explorerCardImg2 from "../images/explorer-card-2.png";
-import explorerCardImg3 from "../images/explorer-card-3.png";
+import explorerImg1 from "../images/explorer-card-1.png";
+import explorerImg2 from "../images/explorer-card-2.png";
+import explorerImg3 from "../images/explorer-card-3.png";
 import adventureCardImg1 from "../images/adventure-image-1.png";
 import adventureCardImg2 from "../images/adventure-image-2.png";
 import adventureCardImg3 from "../images/adventure-image-3.png";
@@ -25,7 +29,16 @@ import aroundWorldImg5 from "../images/around-world-5.png";
 import aroundWorldImg6 from "../images/around-world-6.png";
 import aroundWorldImg7 from "../images/around-world-7.png";
 import aroundWorldImg8 from "../images/around-world-8.png";
-import AroundWorldCard from "../components/AroundWorldCard";
+import experiencesImg1 from "../images/experiences-1.png";
+import experiencesImg2 from "../images/experiences-2.png";
+import experiencesImg3 from "../images/experiences-3.png";
+import experiencesImg4 from "../images/experiences-4.png";
+import experiencesImg5 from "../images/experiences-5.png";
+import experiencesImg6 from "../images/experiences-6.png";
+import destinationsImg1 from "../images/destinations-1.png";
+import destinationsImg2 from "../images/destinations-2.png";
+import destinationsImg3 from "../images/destinations-3.png";
+import DestinationsCard from "../components/DestinationsCard";
 
 const Home: React.FC = () => {
   return (
@@ -80,9 +93,9 @@ const Home: React.FC = () => {
         <div className="explorer">
           <h2>Explorer Airbnb</h2>
           <div className="explorer-cards-row">
-            <ExplorerCard path={explorerCardImg1} label={"Accommodations"} />
-            <ExplorerCard path={explorerCardImg2} label={"Experiences"} />
-            <ExplorerCard path={explorerCardImg3} label={"Adventures"} />
+            <ExplorerCard path={explorerImg1} label={"Accommodations"} />
+            <ExplorerCard path={explorerImg2} label={"Experiences"} />
+            <ExplorerCard path={explorerImg3} label={"Adventures"} />
           </div>
         </div>
 
@@ -108,42 +121,42 @@ const Home: React.FC = () => {
             and accommodation included
           </span>
           <div className="adventures-cards-row">
-            <AdventuresCard
+            <MiniCard
               path={adventureCardImg1}
               title={"CAYMAN ISLANDS"}
               description={"2 Nights PACKAGE All Inclusive"}
               price={"Starting price: 577 € / person - 3 days"}
               rate={"5.0"}
             />
-            <AdventuresCard
+            <MiniCard
               path={adventureCardImg2}
               title={"URUGUAY"}
               description={"4 Nights PACKAGE All Inclusive"}
               price={"Starting price: 577 € / person - 3 days"}
               rate={"4.8"}
             />
-            <AdventuresCard
+            <MiniCard
               path={adventureCardImg3}
               title={"ICELAND"}
               description={"3 Nights PACKAGE All Inclusive"}
               price={"Starting price: 577 € / person - 3 days"}
               rate={"4.9"}
             />
-            <AdventuresCard
+            <MiniCard
               path={adventureCardImg4}
               title={"MONGOLIA"}
               description={"2 Nights PACKAGE All Inclusive"}
               price={"Starting price: 577 € / person - 3 days"}
               rate={"4.2"}
             />
-            <AdventuresCard
+            <MiniCard
               path={adventureCardImg5}
               title={"BAHRAIN"}
               description={"1 Nights PACKAGE All Inclusive"}
               price={"Starting price: 577 € / person - 3 days"}
               rate={"5.0"}
             />
-            <AdventuresCard
+            <MiniCard
               path={adventureCardImg6}
               title={"BOSNIA AND HERZEGOVINA"}
               description={"8 Nights PACKAGE All Inclusive"}
@@ -213,7 +226,60 @@ const Home: React.FC = () => {
             Multi-day trips organized by local experts with activities, meals
             and accommodation included
           </span>
-          <div className="experiences-cards-row"></div>
+          <div className="experiences-cards-row">
+            <MiniCard
+              path={experiencesImg1}
+              title={"CAYMAN ISLANDS"}
+              description={"2 Nights PACKAGE All Inclusive"}
+              price={"Starting price: 577 € / person - 3 days"}
+              rate={"5.0"}
+            />
+            <MiniCard
+              path={experiencesImg2}
+              title={"CAYMAN ISLANDS"}
+              description={"2 Nights PACKAGE All Inclusive"}
+              price={"Starting price: 577 € / person - 3 days"}
+              rate={"5.0"}
+            />
+            <MiniCard
+              path={experiencesImg3}
+              title={"CAYMAN ISLANDS"}
+              description={"2 Nights PACKAGE All Inclusive"}
+              price={"Starting price: 577 € / person - 3 days"}
+              rate={"5.0"}
+            />
+            <MiniCard
+              path={experiencesImg4}
+              title={"CAYMAN ISLANDS"}
+              description={"2 Nights PACKAGE All Inclusive"}
+              price={"Starting price: 577 € / person - 3 days"}
+              rate={"5.0"}
+            />
+            <MiniCard
+              path={experiencesImg5}
+              title={"CAYMAN ISLANDS"}
+              description={"2 Nights PACKAGE All Inclusive"}
+              price={"Starting price: 577 € / person - 3 days"}
+              rate={"5.0"}
+            />
+            <MiniCard
+              path={experiencesImg6}
+              title={"CAYMAN ISLANDS"}
+              description={"2 Nights PACKAGE All Inclusive"}
+              price={"Starting price: 577 € / person - 3 days"}
+              rate={"5.0"}
+            />
+          </div>
+        </div>
+      
+        <div className="destinations">
+          <h2>Featured Airbnb Plus Destinations</h2>
+          <span className="destinations-description">Multi-day trips organized by local experts with activities, meals and accommodation included</span>
+          <div className="destinations-cards-row">
+            <DestinationsCard path={destinationsImg1} title={'More than 200 verified stays'} price={'Starting price: 577 € / person - 3 days'} />
+            <DestinationsCard path={destinationsImg2} title={'More than 200 verified stays'} price={'Starting price: 577 € / person - 3 days'} />
+            <DestinationsCard path={destinationsImg3} title={'More than 200 verified stays'} price={'Starting price: 577 € / person - 3 days'} />
+          </div>
         </div>
       </section>
       <footer />

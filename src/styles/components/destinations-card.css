@@ -1,0 +1,33 @@
+.destination-card-container {
+  width: 391px;
+  height: 294px;
+}
+
+.destination-card-container .destination-card-hero {
+  height: 239px;
+  border-radius: 12px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+          
+.destination-card-container h5 {
+  margin-top: 12px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;  
+  text-transform: uppercase;
+  
+  color: #914669;
+}
+
+.destination-card-container span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #484848;
+
+}

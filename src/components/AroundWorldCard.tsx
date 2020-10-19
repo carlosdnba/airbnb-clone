@@ -3,8 +3,6 @@ import { AiFillStar } from "react-icons/ai";
 
 import "../styles/components/around-world-card.css";
 
-import Img from "../images/around-world-1.png";
-
 interface aroundWorldCard {
   path: string;
   location: string;

@@ -238,12 +238,36 @@
 }
 
 .container section .experiences .experiences-cards-row {
+  margin-top: 32px;
+  
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
 }
 
+.container section .destinations {
+  margin-top: 64px;
+}
+
+.container section .destinations .destinations-description {
+  margin: 32px 0;
+  
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #484848;
+}
+
+.container section .destinations .destinations-cards-row {
+  margin-top: 64px;
+  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 
